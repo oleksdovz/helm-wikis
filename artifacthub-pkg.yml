@@ -1,0 +1,62 @@
+# Artifact Hub package metadata file
+version: 0.1.0
+name: wikijs
+alternativeName: wikijs
+category: skip-prediction
+displayName: WikiJS
+createdAt: Sun Jul 16 2023
+description: WikiJS package
+logoPath: 
+logoURL: 
+digest: 0.1.0
+license: 
+homeURL: 
+appVersion: 2.5
+containersImages: # (optional)
+  - name: WikiJS
+    image: requarks/wiki
+    whitelisted: 
+    platforms: # (optional)
+      - linux/amd64
+      - linux/arm/v7
+      - linux/arm64
+containsSecurityUpdates: 
+operator: false
+deprecated: false
+prerelease: false
+keywords: # (optional)
+  - wikijs
+  - wiki
+links: # (optional)
+  - name: Docker image
+    url: https://hub.docker.com/layers/requarks/wiki/2.5
+readme: |
+  Helm Chart for installation wikijs.
+  Will create deployment, service, ingres, pvc.
+  WikiJS docs   - https://docs.requarks.io
+  Docker image  - https://hub.docker.com/r/requarks/wiki/tags
+  Env variables - https://docs.requarks.io/install/docker
+
+
+# install: | # (optional)
+#   Brief install instructions in markdown format
+
+#   Content added here will be displayed when the INSTALL button on the package details page is clicked.
+# changes: 
+maintainers: # (optional)
+  - name: Oleks Dovz
+    email: oleks.dovz@gmail.com
+# provider: # (optional)
+  # name: The name of the individual, company, or service that provides this package
+# ignore: # (optional, used to ignore some falco rules or opa policies files in a package)
+  # - lib # Entries use .gitignore syntax)
+# recommendations: # (optional, list of recommended packages)
+#   - url: https://artifacthub.io/packages/helm/artifact-hub/artifact-hub
+# screenshots: # (optional, list of screenshots)
+#   - title: Sample screenshot 1
+#     url: https://example.com/screenshot1.jpg
+#   - title: Sample screenshot 2
+#     url: https://example.com/screenshot2.jpg
+# annotations: # (optional, keys and values must be strings)
+#   key1: value1
+#   key2: value2
